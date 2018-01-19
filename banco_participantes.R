@@ -49,7 +49,3 @@ for (i in 13:18) {
 #juntando todos os anos:
 participantes <- rbind(participantes12, participantes18)
 
-profissoes <- participantes %>%
-  select(profissao) %>%
-  distinct()
-
