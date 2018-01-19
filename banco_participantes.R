@@ -50,5 +50,5 @@ for (i in 13:18) {
 participantes <- rbind(participantes12, participantes18)
 
 #salvando num arquivo .csv:
-write.table(participantes, "bbb.csv", row.names = F)
+write.table(participantes, "bbb.csv", sep = ";", row.names = F)
 
