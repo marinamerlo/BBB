@@ -49,3 +49,6 @@ for (i in 13:18) {
 #juntando todos os anos:
 participantes <- rbind(participantes12, participantes18)
 
+#salvando num arquivo .csv:
+write.table(participantes, "bbb.csv", row.names = F)
+
